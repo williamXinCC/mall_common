@@ -7,9 +7,11 @@ package com.william.constant;
  */
 public interface Constant {
 
-	Integer STATUS_ON = 1;
-	Integer STATUS_OFF = 2;
+	// 类型
+	Integer TYPE_ONE = 1;
+	Integer TYPE_TWO = 2;
 
+	// 状态
 	Integer STATUS_ONE_USE = 1;
 	Integer STATUS_TWO_UNUSE = 2;
 

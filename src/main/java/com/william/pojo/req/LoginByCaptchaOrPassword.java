@@ -11,9 +11,9 @@ import lombok.EqualsAndHashCode;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class LoginByCaptcha {
+public class LoginByCaptchaOrPassword extends BaseRequest{
 
     private String customerPhone;
-    private String code;
+    private String condition;
 
 }
