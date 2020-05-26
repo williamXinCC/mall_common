@@ -1,6 +1,7 @@
 package com.william.pojo.resp;
 
 import com.william.pojo.WilliamGoods;
+import com.william.pojo.WilliamGoodsCategory;
 import com.william.pojo.WilliamPicture;
 import com.william.pojo.WilliamSysNotice;
 import io.swagger.annotations.ApiModel;
@@ -35,4 +36,6 @@ public class HomePageResp {
     private List<WilliamGoods> likeGoodsList;
 
     private HomePageAdvResp homePageAdvResp;
+
+    private List<WilliamGoodsCategory> recommendGoodsCategory;
 }

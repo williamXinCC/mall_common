@@ -9,7 +9,8 @@ package com.william.enums;
  */
 public enum PictureEnums {
 
-    HOMEPAGE_BANNER("首页轮播图",1);
+    HOMEPAGE_BANNER("首页轮播图",1),
+    CATEGORY_ADV("分类页面广告图",8);
 
     PictureEnums(String type, Integer code) {
         this.type = type;

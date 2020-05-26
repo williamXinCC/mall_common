@@ -17,6 +17,8 @@ public class WilliamGoodsCategory {
 
     private Integer appShow;
 
+    private Integer recommendPage;
+
     private String describes;
 
     private Integer deletable;
@@ -91,6 +93,14 @@ public class WilliamGoodsCategory {
 
     public void setAppShow(Integer appShow) {
         this.appShow = appShow;
+    }
+
+    public Integer getRecommendPage() {
+        return recommendPage;
+    }
+
+    public void setRecommendPage(Integer recommendPage) {
+        this.recommendPage = recommendPage;
     }
 
     public String getDescribes() {

@@ -581,6 +581,66 @@ public class WilliamGoodsCategoryExample {
             return (Criteria) this;
         }
 
+        public Criteria andRecommendPageIsNull() {
+            addCriterion("william_goods_category.recommend_page is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andRecommendPageIsNotNull() {
+            addCriterion("william_goods_category.recommend_page is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andRecommendPageEqualTo(Integer value) {
+            addCriterion("william_goods_category.recommend_page =", value, "recommendPage");
+            return (Criteria) this;
+        }
+
+        public Criteria andRecommendPageNotEqualTo(Integer value) {
+            addCriterion("william_goods_category.recommend_page <>", value, "recommendPage");
+            return (Criteria) this;
+        }
+
+        public Criteria andRecommendPageGreaterThan(Integer value) {
+            addCriterion("william_goods_category.recommend_page >", value, "recommendPage");
+            return (Criteria) this;
+        }
+
+        public Criteria andRecommendPageGreaterThanOrEqualTo(Integer value) {
+            addCriterion("william_goods_category.recommend_page >=", value, "recommendPage");
+            return (Criteria) this;
+        }
+
+        public Criteria andRecommendPageLessThan(Integer value) {
+            addCriterion("william_goods_category.recommend_page <", value, "recommendPage");
+            return (Criteria) this;
+        }
+
+        public Criteria andRecommendPageLessThanOrEqualTo(Integer value) {
+            addCriterion("william_goods_category.recommend_page <=", value, "recommendPage");
+            return (Criteria) this;
+        }
+
+        public Criteria andRecommendPageIn(List<Integer> values) {
+            addCriterion("william_goods_category.recommend_page in", values, "recommendPage");
+            return (Criteria) this;
+        }
+
+        public Criteria andRecommendPageNotIn(List<Integer> values) {
+            addCriterion("william_goods_category.recommend_page not in", values, "recommendPage");
+            return (Criteria) this;
+        }
+
+        public Criteria andRecommendPageBetween(Integer value1, Integer value2) {
+            addCriterion("william_goods_category.recommend_page between", value1, value2, "recommendPage");
+            return (Criteria) this;
+        }
+
+        public Criteria andRecommendPageNotBetween(Integer value1, Integer value2) {
+            addCriterion("william_goods_category.recommend_page not between", value1, value2, "recommendPage");
+            return (Criteria) this;
+        }
+
         public Criteria andDescribesIsNull() {
             addCriterion("william_goods_category.describes is null");
             return (Criteria) this;
