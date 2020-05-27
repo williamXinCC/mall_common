@@ -14,6 +14,10 @@ public class WilliamOrder {
 
     private BigDecimal productAmountTotal;
 
+    private String couponId;
+
+    private Integer couponValue;
+
     private BigDecimal orderAmountTotal;
 
     private BigDecimal logisticsFee;
@@ -88,6 +92,22 @@ public class WilliamOrder {
 
     public void setProductAmountTotal(BigDecimal productAmountTotal) {
         this.productAmountTotal = productAmountTotal;
+    }
+
+    public String getCouponId() {
+        return couponId;
+    }
+
+    public void setCouponId(String couponId) {
+        this.couponId = couponId == null ? null : couponId.trim();
+    }
+
+    public Integer getCouponValue() {
+        return couponValue;
+    }
+
+    public void setCouponValue(Integer couponValue) {
+        this.couponValue = couponValue;
     }
 
     public BigDecimal getOrderAmountTotal() {

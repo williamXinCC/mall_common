@@ -442,6 +442,136 @@ public class WilliamOrderExample {
             return (Criteria) this;
         }
 
+        public Criteria andCouponIdIsNull() {
+            addCriterion("william_order.coupon_id is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponIdIsNotNull() {
+            addCriterion("william_order.coupon_id is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponIdEqualTo(String value) {
+            addCriterion("william_order.coupon_id =", value, "couponId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponIdNotEqualTo(String value) {
+            addCriterion("william_order.coupon_id <>", value, "couponId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponIdGreaterThan(String value) {
+            addCriterion("william_order.coupon_id >", value, "couponId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponIdGreaterThanOrEqualTo(String value) {
+            addCriterion("william_order.coupon_id >=", value, "couponId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponIdLessThan(String value) {
+            addCriterion("william_order.coupon_id <", value, "couponId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponIdLessThanOrEqualTo(String value) {
+            addCriterion("william_order.coupon_id <=", value, "couponId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponIdLike(String value) {
+            addCriterion("william_order.coupon_id like", value, "couponId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponIdNotLike(String value) {
+            addCriterion("william_order.coupon_id not like", value, "couponId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponIdIn(List<String> values) {
+            addCriterion("william_order.coupon_id in", values, "couponId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponIdNotIn(List<String> values) {
+            addCriterion("william_order.coupon_id not in", values, "couponId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponIdBetween(String value1, String value2) {
+            addCriterion("william_order.coupon_id between", value1, value2, "couponId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponIdNotBetween(String value1, String value2) {
+            addCriterion("william_order.coupon_id not between", value1, value2, "couponId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponValueIsNull() {
+            addCriterion("william_order.coupon_value is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponValueIsNotNull() {
+            addCriterion("william_order.coupon_value is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponValueEqualTo(Integer value) {
+            addCriterion("william_order.coupon_value =", value, "couponValue");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponValueNotEqualTo(Integer value) {
+            addCriterion("william_order.coupon_value <>", value, "couponValue");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponValueGreaterThan(Integer value) {
+            addCriterion("william_order.coupon_value >", value, "couponValue");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponValueGreaterThanOrEqualTo(Integer value) {
+            addCriterion("william_order.coupon_value >=", value, "couponValue");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponValueLessThan(Integer value) {
+            addCriterion("william_order.coupon_value <", value, "couponValue");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponValueLessThanOrEqualTo(Integer value) {
+            addCriterion("william_order.coupon_value <=", value, "couponValue");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponValueIn(List<Integer> values) {
+            addCriterion("william_order.coupon_value in", values, "couponValue");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponValueNotIn(List<Integer> values) {
+            addCriterion("william_order.coupon_value not in", values, "couponValue");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponValueBetween(Integer value1, Integer value2) {
+            addCriterion("william_order.coupon_value between", value1, value2, "couponValue");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponValueNotBetween(Integer value1, Integer value2) {
+            addCriterion("william_order.coupon_value not between", value1, value2, "couponValue");
+            return (Criteria) this;
+        }
+
         public Criteria andOrderAmountTotalIsNull() {
             addCriterion("william_order.order_amount_total is null");
             return (Criteria) this;
