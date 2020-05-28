@@ -822,63 +822,123 @@ public class WilliamCouponExample {
             return (Criteria) this;
         }
 
-        public Criteria andCouponTypeValueEqualTo(String value) {
+        public Criteria andCouponTypeValueEqualTo(Integer value) {
             addCriterion("william_coupon.coupon_type_value =", value, "couponTypeValue");
             return (Criteria) this;
         }
 
-        public Criteria andCouponTypeValueNotEqualTo(String value) {
+        public Criteria andCouponTypeValueNotEqualTo(Integer value) {
             addCriterion("william_coupon.coupon_type_value <>", value, "couponTypeValue");
             return (Criteria) this;
         }
 
-        public Criteria andCouponTypeValueGreaterThan(String value) {
+        public Criteria andCouponTypeValueGreaterThan(Integer value) {
             addCriterion("william_coupon.coupon_type_value >", value, "couponTypeValue");
             return (Criteria) this;
         }
 
-        public Criteria andCouponTypeValueGreaterThanOrEqualTo(String value) {
+        public Criteria andCouponTypeValueGreaterThanOrEqualTo(Integer value) {
             addCriterion("william_coupon.coupon_type_value >=", value, "couponTypeValue");
             return (Criteria) this;
         }
 
-        public Criteria andCouponTypeValueLessThan(String value) {
+        public Criteria andCouponTypeValueLessThan(Integer value) {
             addCriterion("william_coupon.coupon_type_value <", value, "couponTypeValue");
             return (Criteria) this;
         }
 
-        public Criteria andCouponTypeValueLessThanOrEqualTo(String value) {
+        public Criteria andCouponTypeValueLessThanOrEqualTo(Integer value) {
             addCriterion("william_coupon.coupon_type_value <=", value, "couponTypeValue");
             return (Criteria) this;
         }
 
-        public Criteria andCouponTypeValueLike(String value) {
-            addCriterion("william_coupon.coupon_type_value like", value, "couponTypeValue");
-            return (Criteria) this;
-        }
-
-        public Criteria andCouponTypeValueNotLike(String value) {
-            addCriterion("william_coupon.coupon_type_value not like", value, "couponTypeValue");
-            return (Criteria) this;
-        }
-
-        public Criteria andCouponTypeValueIn(List<String> values) {
+        public Criteria andCouponTypeValueIn(List<Integer> values) {
             addCriterion("william_coupon.coupon_type_value in", values, "couponTypeValue");
             return (Criteria) this;
         }
 
-        public Criteria andCouponTypeValueNotIn(List<String> values) {
+        public Criteria andCouponTypeValueNotIn(List<Integer> values) {
             addCriterion("william_coupon.coupon_type_value not in", values, "couponTypeValue");
             return (Criteria) this;
         }
 
-        public Criteria andCouponTypeValueBetween(String value1, String value2) {
+        public Criteria andCouponTypeValueBetween(Integer value1, Integer value2) {
             addCriterion("william_coupon.coupon_type_value between", value1, value2, "couponTypeValue");
             return (Criteria) this;
         }
 
-        public Criteria andCouponTypeValueNotBetween(String value1, String value2) {
+        public Criteria andCouponTypeValueNotBetween(Integer value1, Integer value2) {
             addCriterion("william_coupon.coupon_type_value not between", value1, value2, "couponTypeValue");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponTypeDiscountIsNull() {
+            addCriterion("william_coupon.coupon_type_discount is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponTypeDiscountIsNotNull() {
+            addCriterion("william_coupon.coupon_type_discount is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponTypeDiscountEqualTo(String value) {
+            addCriterion("william_coupon.coupon_type_discount =", value, "couponTypeDiscount");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponTypeDiscountNotEqualTo(String value) {
+            addCriterion("william_coupon.coupon_type_discount <>", value, "couponTypeDiscount");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponTypeDiscountGreaterThan(String value) {
+            addCriterion("william_coupon.coupon_type_discount >", value, "couponTypeDiscount");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponTypeDiscountGreaterThanOrEqualTo(String value) {
+            addCriterion("william_coupon.coupon_type_discount >=", value, "couponTypeDiscount");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponTypeDiscountLessThan(String value) {
+            addCriterion("william_coupon.coupon_type_discount <", value, "couponTypeDiscount");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponTypeDiscountLessThanOrEqualTo(String value) {
+            addCriterion("william_coupon.coupon_type_discount <=", value, "couponTypeDiscount");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponTypeDiscountLike(String value) {
+            addCriterion("william_coupon.coupon_type_discount like", value, "couponTypeDiscount");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponTypeDiscountNotLike(String value) {
+            addCriterion("william_coupon.coupon_type_discount not like", value, "couponTypeDiscount");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponTypeDiscountIn(List<String> values) {
+            addCriterion("william_coupon.coupon_type_discount in", values, "couponTypeDiscount");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponTypeDiscountNotIn(List<String> values) {
+            addCriterion("william_coupon.coupon_type_discount not in", values, "couponTypeDiscount");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponTypeDiscountBetween(String value1, String value2) {
+            addCriterion("william_coupon.coupon_type_discount between", value1, value2, "couponTypeDiscount");
+            return (Criteria) this;
+        }
+
+        public Criteria andCouponTypeDiscountNotBetween(String value1, String value2) {
+            addCriterion("william_coupon.coupon_type_discount not between", value1, value2, "couponTypeDiscount");
             return (Criteria) this;
         }
 

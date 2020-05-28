@@ -1,6 +1,5 @@
 package com.william.pojo;
 
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -322,52 +321,52 @@ public class WilliamCouponCustomerExample {
             return (Criteria) this;
         }
 
-        public Criteria andCouponValueEqualTo(BigDecimal value) {
+        public Criteria andCouponValueEqualTo(Integer value) {
             addCriterion("william_coupon_customer.coupon_value =", value, "couponValue");
             return (Criteria) this;
         }
 
-        public Criteria andCouponValueNotEqualTo(BigDecimal value) {
+        public Criteria andCouponValueNotEqualTo(Integer value) {
             addCriterion("william_coupon_customer.coupon_value <>", value, "couponValue");
             return (Criteria) this;
         }
 
-        public Criteria andCouponValueGreaterThan(BigDecimal value) {
+        public Criteria andCouponValueGreaterThan(Integer value) {
             addCriterion("william_coupon_customer.coupon_value >", value, "couponValue");
             return (Criteria) this;
         }
 
-        public Criteria andCouponValueGreaterThanOrEqualTo(BigDecimal value) {
+        public Criteria andCouponValueGreaterThanOrEqualTo(Integer value) {
             addCriterion("william_coupon_customer.coupon_value >=", value, "couponValue");
             return (Criteria) this;
         }
 
-        public Criteria andCouponValueLessThan(BigDecimal value) {
+        public Criteria andCouponValueLessThan(Integer value) {
             addCriterion("william_coupon_customer.coupon_value <", value, "couponValue");
             return (Criteria) this;
         }
 
-        public Criteria andCouponValueLessThanOrEqualTo(BigDecimal value) {
+        public Criteria andCouponValueLessThanOrEqualTo(Integer value) {
             addCriterion("william_coupon_customer.coupon_value <=", value, "couponValue");
             return (Criteria) this;
         }
 
-        public Criteria andCouponValueIn(List<BigDecimal> values) {
+        public Criteria andCouponValueIn(List<Integer> values) {
             addCriterion("william_coupon_customer.coupon_value in", values, "couponValue");
             return (Criteria) this;
         }
 
-        public Criteria andCouponValueNotIn(List<BigDecimal> values) {
+        public Criteria andCouponValueNotIn(List<Integer> values) {
             addCriterion("william_coupon_customer.coupon_value not in", values, "couponValue");
             return (Criteria) this;
         }
 
-        public Criteria andCouponValueBetween(BigDecimal value1, BigDecimal value2) {
+        public Criteria andCouponValueBetween(Integer value1, Integer value2) {
             addCriterion("william_coupon_customer.coupon_value between", value1, value2, "couponValue");
             return (Criteria) this;
         }
 
-        public Criteria andCouponValueNotBetween(BigDecimal value1, BigDecimal value2) {
+        public Criteria andCouponValueNotBetween(Integer value1, Integer value2) {
             addCriterion("william_coupon_customer.coupon_value not between", value1, value2, "couponValue");
             return (Criteria) this;
         }
@@ -889,6 +888,66 @@ public class WilliamCouponCustomerExample {
 
         public Criteria andRemarkNotBetween(String value1, String value2) {
             addCriterion("william_coupon_customer.remark not between", value1, value2, "remark");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusIsNull() {
+            addCriterion("william_coupon_customer.status is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusIsNotNull() {
+            addCriterion("william_coupon_customer.status is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusEqualTo(Integer value) {
+            addCriterion("william_coupon_customer.status =", value, "status");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusNotEqualTo(Integer value) {
+            addCriterion("william_coupon_customer.status <>", value, "status");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusGreaterThan(Integer value) {
+            addCriterion("william_coupon_customer.status >", value, "status");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusGreaterThanOrEqualTo(Integer value) {
+            addCriterion("william_coupon_customer.status >=", value, "status");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusLessThan(Integer value) {
+            addCriterion("william_coupon_customer.status <", value, "status");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusLessThanOrEqualTo(Integer value) {
+            addCriterion("william_coupon_customer.status <=", value, "status");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusIn(List<Integer> values) {
+            addCriterion("william_coupon_customer.status in", values, "status");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusNotIn(List<Integer> values) {
+            addCriterion("william_coupon_customer.status not in", values, "status");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusBetween(Integer value1, Integer value2) {
+            addCriterion("william_coupon_customer.status between", value1, value2, "status");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusNotBetween(Integer value1, Integer value2) {
+            addCriterion("william_coupon_customer.status not between", value1, value2, "status");
             return (Criteria) this;
         }
     }

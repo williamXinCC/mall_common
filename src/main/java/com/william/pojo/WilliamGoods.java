@@ -46,6 +46,8 @@ public class WilliamGoods {
 
     private Integer titleCategoryId;
 
+    private Integer guessUlike;
+
     private Integer putaway;
 
     private String describes;
@@ -246,6 +248,14 @@ public class WilliamGoods {
 
     public void setTitleCategoryId(Integer titleCategoryId) {
         this.titleCategoryId = titleCategoryId;
+    }
+
+    public Integer getGuessUlike() {
+        return guessUlike;
+    }
+
+    public void setGuessUlike(Integer guessUlike) {
+        this.guessUlike = guessUlike;
     }
 
     public Integer getPutaway() {

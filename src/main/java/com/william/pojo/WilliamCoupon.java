@@ -26,7 +26,9 @@ public class WilliamCoupon {
 
     private Integer couponType;
 
-    private String couponTypeValue;
+    private Integer couponTypeValue;
+
+    private String couponTypeDiscount;
 
     private Integer useType;
 
@@ -146,12 +148,20 @@ public class WilliamCoupon {
         this.couponType = couponType;
     }
 
-    public String getCouponTypeValue() {
+    public Integer getCouponTypeValue() {
         return couponTypeValue;
     }
 
-    public void setCouponTypeValue(String couponTypeValue) {
-        this.couponTypeValue = couponTypeValue == null ? null : couponTypeValue.trim();
+    public void setCouponTypeValue(Integer couponTypeValue) {
+        this.couponTypeValue = couponTypeValue;
+    }
+
+    public String getCouponTypeDiscount() {
+        return couponTypeDiscount;
+    }
+
+    public void setCouponTypeDiscount(String couponTypeDiscount) {
+        this.couponTypeDiscount = couponTypeDiscount == null ? null : couponTypeDiscount.trim();
     }
 
     public Integer getUseType() {

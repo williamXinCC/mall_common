@@ -1,6 +1,5 @@
 package com.william.pojo;
 
-import java.math.BigDecimal;
 import java.util.Date;
 
 public class WilliamCouponCustomer {
@@ -10,7 +9,7 @@ public class WilliamCouponCustomer {
 
     private Integer couponCount;
 
-    private BigDecimal couponValue;
+    private Integer couponValue;
 
     private String memberId;
 
@@ -27,6 +26,8 @@ public class WilliamCouponCustomer {
     private String orderId;
 
     private String remark;
+
+    private Integer status;
 
     public Long getId() {
         return id;
@@ -52,11 +53,11 @@ public class WilliamCouponCustomer {
         this.couponCount = couponCount;
     }
 
-    public BigDecimal getCouponValue() {
+    public Integer getCouponValue() {
         return couponValue;
     }
 
-    public void setCouponValue(BigDecimal couponValue) {
+    public void setCouponValue(Integer couponValue) {
         this.couponValue = couponValue;
     }
 
@@ -122,5 +123,13 @@ public class WilliamCouponCustomer {
 
     public void setRemark(String remark) {
         this.remark = remark == null ? null : remark.trim();
+    }
+
+    public Integer getStatus() {
+        return status;
+    }
+
+    public void setStatus(Integer status) {
+        this.status = status;
     }
 }

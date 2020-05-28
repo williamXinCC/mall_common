@@ -1442,6 +1442,66 @@ public class WilliamGoodsExample {
             return (Criteria) this;
         }
 
+        public Criteria andGuessUlikeIsNull() {
+            addCriterion("william_goods.guess_ulike is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andGuessUlikeIsNotNull() {
+            addCriterion("william_goods.guess_ulike is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andGuessUlikeEqualTo(Integer value) {
+            addCriterion("william_goods.guess_ulike =", value, "guessUlike");
+            return (Criteria) this;
+        }
+
+        public Criteria andGuessUlikeNotEqualTo(Integer value) {
+            addCriterion("william_goods.guess_ulike <>", value, "guessUlike");
+            return (Criteria) this;
+        }
+
+        public Criteria andGuessUlikeGreaterThan(Integer value) {
+            addCriterion("william_goods.guess_ulike >", value, "guessUlike");
+            return (Criteria) this;
+        }
+
+        public Criteria andGuessUlikeGreaterThanOrEqualTo(Integer value) {
+            addCriterion("william_goods.guess_ulike >=", value, "guessUlike");
+            return (Criteria) this;
+        }
+
+        public Criteria andGuessUlikeLessThan(Integer value) {
+            addCriterion("william_goods.guess_ulike <", value, "guessUlike");
+            return (Criteria) this;
+        }
+
+        public Criteria andGuessUlikeLessThanOrEqualTo(Integer value) {
+            addCriterion("william_goods.guess_ulike <=", value, "guessUlike");
+            return (Criteria) this;
+        }
+
+        public Criteria andGuessUlikeIn(List<Integer> values) {
+            addCriterion("william_goods.guess_ulike in", values, "guessUlike");
+            return (Criteria) this;
+        }
+
+        public Criteria andGuessUlikeNotIn(List<Integer> values) {
+            addCriterion("william_goods.guess_ulike not in", values, "guessUlike");
+            return (Criteria) this;
+        }
+
+        public Criteria andGuessUlikeBetween(Integer value1, Integer value2) {
+            addCriterion("william_goods.guess_ulike between", value1, value2, "guessUlike");
+            return (Criteria) this;
+        }
+
+        public Criteria andGuessUlikeNotBetween(Integer value1, Integer value2) {
+            addCriterion("william_goods.guess_ulike not between", value1, value2, "guessUlike");
+            return (Criteria) this;
+        }
+
         public Criteria andPutawayIsNull() {
             addCriterion("william_goods.putaway is null");
             return (Criteria) this;

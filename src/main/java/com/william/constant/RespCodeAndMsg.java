@@ -24,6 +24,7 @@ public enum RespCodeAndMsg {
     LOGIN_ERROR_NON_PASS(Constant.ERROR,"用户名或密码错误"),
     UPDATE_SUCCESS(Constant.OK,"修改成功"),
     UPDATE_ERROR(Constant.ERROR,"修改失败"),
+    UPDATE_PASSWORD_FAILED(Constant.ERROR,"验证码错误"),
     ADD_SUCCESS(Constant.OK,"添加成功"),
     ADD_ERROR(Constant.ERROR,"添加失败"),
     OPERATE_SUCCESS(Constant.OK,"操作成功"),
