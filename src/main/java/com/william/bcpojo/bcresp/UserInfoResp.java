@@ -39,4 +39,6 @@ public class UserInfoResp {
 
     private String workNum;
 
+    private String remark;
+
 }

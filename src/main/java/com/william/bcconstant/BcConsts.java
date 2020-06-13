@@ -8,6 +8,8 @@ package com.william.bcconstant;
  */
 public interface BcConsts {
 
+    // 默认密码
+    String DEFAULT_PASSWORD = "123456";
     // 当前租户
     String TENANT_ID = "123";
     // 菜单 type类型 1 菜单 2 按钮

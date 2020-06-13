@@ -1,5 +1,6 @@
 package com.william.bcpojo;
 
+
 import java.util.Date;
 
 public class WilliamRole {
