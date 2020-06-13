@@ -1,29 +1,21 @@
-package com.william.pojo;
+package com.william.bcpojo;
 
 import java.util.Date;
 
-public class WilliamGoodsAttribute {
+public class WilliamRolePermission {
     private Integer id;
 
-    private String goodsId;
+    private String roleCode;
 
-    private String attributeName;
-
-    private String attributeValue;
+    private Integer permissionId;
 
     private String createId;
-
-    private String createName;
 
     private Date createTime;
 
     private String modId;
 
-    private String modName;
-
     private Date modTime;
-
-    private Integer status;
 
     private String tenantId;
 
@@ -37,28 +29,20 @@ public class WilliamGoodsAttribute {
         this.id = id;
     }
 
-    public String getGoodsId() {
-        return goodsId;
+    public String getRoleCode() {
+        return roleCode;
     }
 
-    public void setGoodsId(String goodsId) {
-        this.goodsId = goodsId == null ? null : goodsId.trim();
+    public void setRoleCode(String roleCode) {
+        this.roleCode = roleCode == null ? null : roleCode.trim();
     }
 
-    public String getAttributeName() {
-        return attributeName;
+    public Integer getPermissionId() {
+        return permissionId;
     }
 
-    public void setAttributeName(String attributeName) {
-        this.attributeName = attributeName == null ? null : attributeName.trim();
-    }
-
-    public String getAttributeValue() {
-        return attributeValue;
-    }
-
-    public void setAttributeValue(String attributeValue) {
-        this.attributeValue = attributeValue == null ? null : attributeValue.trim();
+    public void setPermissionId(Integer permissionId) {
+        this.permissionId = permissionId;
     }
 
     public String getCreateId() {
@@ -67,14 +51,6 @@ public class WilliamGoodsAttribute {
 
     public void setCreateId(String createId) {
         this.createId = createId == null ? null : createId.trim();
-    }
-
-    public String getCreateName() {
-        return createName;
-    }
-
-    public void setCreateName(String createName) {
-        this.createName = createName == null ? null : createName.trim();
     }
 
     public Date getCreateTime() {
@@ -93,28 +69,12 @@ public class WilliamGoodsAttribute {
         this.modId = modId == null ? null : modId.trim();
     }
 
-    public String getModName() {
-        return modName;
-    }
-
-    public void setModName(String modName) {
-        this.modName = modName == null ? null : modName.trim();
-    }
-
     public Date getModTime() {
         return modTime;
     }
 
     public void setModTime(Date modTime) {
         this.modTime = modTime;
-    }
-
-    public Integer getStatus() {
-        return status;
-    }
-
-    public void setStatus(Integer status) {
-        this.status = status;
     }
 
     public String getTenantId() {

@@ -860,6 +860,146 @@ public class WilliamGoodsAttributeExample {
             addCriterion("william_goods_attribute.status not between", value1, value2, "status");
             return (Criteria) this;
         }
+
+        public Criteria andTenantIdIsNull() {
+            addCriterion("william_goods_attribute.tenant_id is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andTenantIdIsNotNull() {
+            addCriterion("william_goods_attribute.tenant_id is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andTenantIdEqualTo(String value) {
+            addCriterion("william_goods_attribute.tenant_id =", value, "tenantId");
+            return (Criteria) this;
+        }
+
+        public Criteria andTenantIdNotEqualTo(String value) {
+            addCriterion("william_goods_attribute.tenant_id <>", value, "tenantId");
+            return (Criteria) this;
+        }
+
+        public Criteria andTenantIdGreaterThan(String value) {
+            addCriterion("william_goods_attribute.tenant_id >", value, "tenantId");
+            return (Criteria) this;
+        }
+
+        public Criteria andTenantIdGreaterThanOrEqualTo(String value) {
+            addCriterion("william_goods_attribute.tenant_id >=", value, "tenantId");
+            return (Criteria) this;
+        }
+
+        public Criteria andTenantIdLessThan(String value) {
+            addCriterion("william_goods_attribute.tenant_id <", value, "tenantId");
+            return (Criteria) this;
+        }
+
+        public Criteria andTenantIdLessThanOrEqualTo(String value) {
+            addCriterion("william_goods_attribute.tenant_id <=", value, "tenantId");
+            return (Criteria) this;
+        }
+
+        public Criteria andTenantIdLike(String value) {
+            addCriterion("william_goods_attribute.tenant_id like", value, "tenantId");
+            return (Criteria) this;
+        }
+
+        public Criteria andTenantIdNotLike(String value) {
+            addCriterion("william_goods_attribute.tenant_id not like", value, "tenantId");
+            return (Criteria) this;
+        }
+
+        public Criteria andTenantIdIn(List<String> values) {
+            addCriterion("william_goods_attribute.tenant_id in", values, "tenantId");
+            return (Criteria) this;
+        }
+
+        public Criteria andTenantIdNotIn(List<String> values) {
+            addCriterion("william_goods_attribute.tenant_id not in", values, "tenantId");
+            return (Criteria) this;
+        }
+
+        public Criteria andTenantIdBetween(String value1, String value2) {
+            addCriterion("william_goods_attribute.tenant_id between", value1, value2, "tenantId");
+            return (Criteria) this;
+        }
+
+        public Criteria andTenantIdNotBetween(String value1, String value2) {
+            addCriterion("william_goods_attribute.tenant_id not between", value1, value2, "tenantId");
+            return (Criteria) this;
+        }
+
+        public Criteria andClientIsNull() {
+            addCriterion("william_goods_attribute.client is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andClientIsNotNull() {
+            addCriterion("william_goods_attribute.client is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andClientEqualTo(String value) {
+            addCriterion("william_goods_attribute.client =", value, "client");
+            return (Criteria) this;
+        }
+
+        public Criteria andClientNotEqualTo(String value) {
+            addCriterion("william_goods_attribute.client <>", value, "client");
+            return (Criteria) this;
+        }
+
+        public Criteria andClientGreaterThan(String value) {
+            addCriterion("william_goods_attribute.client >", value, "client");
+            return (Criteria) this;
+        }
+
+        public Criteria andClientGreaterThanOrEqualTo(String value) {
+            addCriterion("william_goods_attribute.client >=", value, "client");
+            return (Criteria) this;
+        }
+
+        public Criteria andClientLessThan(String value) {
+            addCriterion("william_goods_attribute.client <", value, "client");
+            return (Criteria) this;
+        }
+
+        public Criteria andClientLessThanOrEqualTo(String value) {
+            addCriterion("william_goods_attribute.client <=", value, "client");
+            return (Criteria) this;
+        }
+
+        public Criteria andClientLike(String value) {
+            addCriterion("william_goods_attribute.client like", value, "client");
+            return (Criteria) this;
+        }
+
+        public Criteria andClientNotLike(String value) {
+            addCriterion("william_goods_attribute.client not like", value, "client");
+            return (Criteria) this;
+        }
+
+        public Criteria andClientIn(List<String> values) {
+            addCriterion("william_goods_attribute.client in", values, "client");
+            return (Criteria) this;
+        }
+
+        public Criteria andClientNotIn(List<String> values) {
+            addCriterion("william_goods_attribute.client not in", values, "client");
+            return (Criteria) this;
+        }
+
+        public Criteria andClientBetween(String value1, String value2) {
+            addCriterion("william_goods_attribute.client between", value1, value2, "client");
+            return (Criteria) this;
+        }
+
+        public Criteria andClientNotBetween(String value1, String value2) {
+            addCriterion("william_goods_attribute.client not between", value1, value2, "client");
+            return (Criteria) this;
+        }
     }
 
     public static class Criteria extends GeneratedCriteria {

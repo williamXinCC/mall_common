@@ -28,6 +28,10 @@ public class Result {
         this.msg = msg;
     }
 
+    public Result(Long count, Object data) {
+        this.count = count;
+        this.data = data;
+    }
 
     public Result(Integer code, Object data) {
         this.code = code;
