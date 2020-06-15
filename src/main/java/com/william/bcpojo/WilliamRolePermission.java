@@ -5,7 +5,7 @@ import java.util.Date;
 public class WilliamRolePermission {
     private Integer id;
 
-    private String roleCode;
+    private Integer roleId;
 
     private Integer permissionId;
 
@@ -29,12 +29,12 @@ public class WilliamRolePermission {
         this.id = id;
     }
 
-    public String getRoleCode() {
-        return roleCode;
+    public Integer getRoleId() {
+        return roleId;
     }
 
-    public void setRoleCode(String roleCode) {
-        this.roleCode = roleCode == null ? null : roleCode.trim();
+    public void setRoleId(Integer roleId) {
+        this.roleId = roleId;
     }
 
     public Integer getPermissionId() {

@@ -7,7 +7,7 @@ public class WilliamUserRole {
 
     private String userId;
 
-    private String roleCode;
+    private Integer roleId;
 
     private String createId;
 
@@ -39,12 +39,12 @@ public class WilliamUserRole {
         this.userId = userId == null ? null : userId.trim();
     }
 
-    public String getRoleCode() {
-        return roleCode;
+    public Integer getRoleId() {
+        return roleId;
     }
 
-    public void setRoleCode(String roleCode) {
-        this.roleCode = roleCode == null ? null : roleCode.trim();
+    public void setRoleId(Integer roleId) {
+        this.roleId = roleId;
     }
 
     public String getCreateId() {

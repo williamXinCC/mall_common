@@ -3,13 +3,35 @@ package com.william.bcpojo;
 import java.util.Date;
 
 public class WilliamPermission {
-    private Integer permissionId;
+    private Integer id;
 
-    private String permission;
+    private Integer pid;
 
-    private String permissionInit;
+    private String title;
 
-    private Integer sort;
+    private Integer type;
+
+    private String percode;
+
+    private String icon;
+
+    private String iconColor;
+
+    private String href;
+
+    private Integer spread;
+
+    private String level;
+
+    private String menuColor;
+
+    private Integer seq;
+
+    private Integer showFlag;
+
+    private String target;
+
+    private String remark;
 
     private Integer status;
 
@@ -25,36 +47,124 @@ public class WilliamPermission {
 
     private String client;
 
-    public Integer getPermissionId() {
-        return permissionId;
+    public Integer getId() {
+        return id;
     }
 
-    public void setPermissionId(Integer permissionId) {
-        this.permissionId = permissionId;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
-    public String getPermission() {
-        return permission;
+    public Integer getPid() {
+        return pid;
     }
 
-    public void setPermission(String permission) {
-        this.permission = permission == null ? null : permission.trim();
+    public void setPid(Integer pid) {
+        this.pid = pid;
     }
 
-    public String getPermissionInit() {
-        return permissionInit;
+    public String getTitle() {
+        return title;
     }
 
-    public void setPermissionInit(String permissionInit) {
-        this.permissionInit = permissionInit == null ? null : permissionInit.trim();
+    public void setTitle(String title) {
+        this.title = title == null ? null : title.trim();
     }
 
-    public Integer getSort() {
-        return sort;
+    public Integer getType() {
+        return type;
     }
 
-    public void setSort(Integer sort) {
-        this.sort = sort;
+    public void setType(Integer type) {
+        this.type = type;
+    }
+
+    public String getPercode() {
+        return percode;
+    }
+
+    public void setPercode(String percode) {
+        this.percode = percode == null ? null : percode.trim();
+    }
+
+    public String getIcon() {
+        return icon;
+    }
+
+    public void setIcon(String icon) {
+        this.icon = icon == null ? null : icon.trim();
+    }
+
+    public String getIconColor() {
+        return iconColor;
+    }
+
+    public void setIconColor(String iconColor) {
+        this.iconColor = iconColor == null ? null : iconColor.trim();
+    }
+
+    public String getHref() {
+        return href;
+    }
+
+    public void setHref(String href) {
+        this.href = href == null ? null : href.trim();
+    }
+
+    public Integer getSpread() {
+        return spread;
+    }
+
+    public void setSpread(Integer spread) {
+        this.spread = spread;
+    }
+
+    public String getLevel() {
+        return level;
+    }
+
+    public void setLevel(String level) {
+        this.level = level == null ? null : level.trim();
+    }
+
+    public String getMenuColor() {
+        return menuColor;
+    }
+
+    public void setMenuColor(String menuColor) {
+        this.menuColor = menuColor == null ? null : menuColor.trim();
+    }
+
+    public Integer getSeq() {
+        return seq;
+    }
+
+    public void setSeq(Integer seq) {
+        this.seq = seq;
+    }
+
+    public Integer getShowFlag() {
+        return showFlag;
+    }
+
+    public void setShowFlag(Integer showFlag) {
+        this.showFlag = showFlag;
+    }
+
+    public String getTarget() {
+        return target;
+    }
+
+    public void setTarget(String target) {
+        this.target = target == null ? null : target.trim();
+    }
+
+    public String getRemark() {
+        return remark;
+    }
+
+    public void setRemark(String remark) {
+        this.remark = remark == null ? null : remark.trim();
     }
 
     public Integer getStatus() {

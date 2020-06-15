@@ -13,6 +13,6 @@ public interface BcConsts {
     // 当前租户
     String TENANT_ID = "123";
     // 菜单 type类型 1 菜单 2 按钮
-    Integer MENU_TYPE = 1;
-    Integer BUTTON_TYPE = 2;
+    Integer PERMISSION_TYPE_MENU = 1;
+    Integer PERMISSION_TYPE_BUTTON = 2;
 }

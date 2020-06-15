@@ -20,9 +20,10 @@ public class ActiverUser implements Serializable {
 	private static final long serialVersionUID = -7028476581629590666L;
 	private WilliamUser williamUser;
 	
-	private List<String> roles;
+	private List<Integer> roles;
 	
-	private List<Integer> permissions;
+	private List<String> permissions;
 
-	private List<Integer> menus;
+	private List<WilliamPermission> menus;
+
 }

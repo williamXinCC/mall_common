@@ -23,6 +23,11 @@ public class Result {
     private Long count = 0L;
     private String remark = "";
 
+    public Result(Object data) {
+        this.data = data;
+    }
+
+
     public Result(Integer code, String msg) {
         this.code = code;
         this.msg = msg;
