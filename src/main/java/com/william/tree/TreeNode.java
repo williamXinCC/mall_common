@@ -18,6 +18,7 @@ public class TreeNode {
 	private Integer pid;
 	private String title;
 	private String icon;
+	private String iconColor;
 	private String href;
 	private Boolean spread;
 	private Integer seq;
@@ -28,7 +29,7 @@ public class TreeNode {
 	/**
 	 * 首页左边导航树的构造器
 	 */
-	public TreeNode(Integer id, Integer pid, String title, String icon, String href, Boolean spread,Integer seq) {
+	public TreeNode(Integer id, Integer pid, String title, String icon, String href, Boolean spread,Integer seq,String iconColor) {
 		super();
 		this.id = id;
 		this.pid = pid;
@@ -37,6 +38,7 @@ public class TreeNode {
 		this.href = href;
 		this.spread = spread;
 		this.seq = seq;
+		this.iconColor = iconColor;
 	}
 
 	public TreeNode(Integer id, Integer pid, String title, String icon, String href, Boolean spread) {

@@ -15,4 +15,11 @@ public interface BcConsts {
     // 菜单 type类型 1 菜单 2 按钮
     Integer PERMISSION_TYPE_MENU = 1;
     Integer PERMISSION_TYPE_BUTTON = 2;
+
+    /**
+     * 用户类型
+     */
+    Integer USER_TYPE_SUPER = 2; // 管理员
+    Integer USER_TYPE_NORMAL = 1;
+
 }
